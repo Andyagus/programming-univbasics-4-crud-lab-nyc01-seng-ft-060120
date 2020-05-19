@@ -41,7 +41,7 @@ def retrieve_last_element_from_array(array)
   array.last
 end
 
-def update_element_from_index(array, index_number, element="totally")
+def update_element_from_index(array, index_number, element)
   array.push(element)[index_number]
   return element
 end
