@@ -43,4 +43,5 @@ end
 
 def update_element_from_index(array, index_number, element="totally")
   array.push(element)[index_number]
+  return element
 end
